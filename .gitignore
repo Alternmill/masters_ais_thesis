@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data & scans (not part of the code submission)
+scans/
+exports/
+*.lcc
+*.xbin
+*.ply
+*.bin
+
+# Model checkpoints & run outputs
+*.pt
+*.pth
+runs/
+out/
+*_predcache/
+
+# Media / caches
+*.mp4
+*.log
+.DS_Store
